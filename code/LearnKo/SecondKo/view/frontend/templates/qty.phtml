@@ -1,0 +1,28 @@
+<?php
+/**
+ * Netstarter Pty Ltd.
+ *
+ * @category  RAG 
+ * @author    Netstarter Team contact@netstarter.com
+ * @copyright Copyright © 2018 Netstarter Pty Ltd. (http://www.netstarter.com.au) All rights reserved.
+ */
+?>
+<h1>This is the template for Second KO observable</h1>
+
+<div id="qty" data-bind="scope:'qtysetting'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+    {
+        "#qty": {
+            "magentoui": {
+               "components": {
+                    "qtysetting": {
+                        "component": "qtysetting",
+                        "defaultVal": <?php echo 1 * 1 ?>
+                    }
+                }
+            }
+        }
+    }
+    </script>
+</div>

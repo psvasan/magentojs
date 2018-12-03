@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Netstarter Pty Ltd.
+ *
+ * @category  RAG 
+ * @author    Netstarter Team contact@netstarter.com
+ * @copyright Copyright © 2018 Netstarter Pty Ltd. (http://www.netstarter.com.au) All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="LearnKo_ThirdKo" setup_version="2.0.0"/>
+</config>

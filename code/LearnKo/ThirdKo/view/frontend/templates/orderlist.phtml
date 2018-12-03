@@ -1,0 +1,26 @@
+<?php
+/**
+ * Netstarter Pty Ltd.
+ *
+ * @category  RAG 
+ * @author    Netstarter Team contact@netstarter.com
+ * @copyright Copyright © 2018 Netstarter Pty Ltd. (http://www.netstarter.com.au) All rights reserved.
+ */
+?>
+<h1>This is the template for Third KO</h1>
+<h4>How to user layout processor</h4>
+<h4>How to use config provider</h4>
+<h4>How to use storage model</h4>
+<h4>How to use AJAX call</h4>
+<h4>How to use REST API call</h4>
+
+<div id="order-list" data-bind="scope:'orderlist'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+    {
+        "#order-list": {
+            "Magento_Ui/js/core/app": <?php /* @escapeNotVerified */ echo $block->getJsLayout();?>
+        }
+    }
+    </script>
+</div>

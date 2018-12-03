@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Netstarter Pty Ltd.
+ *
+ * @category  RAG 
+ * @author    Netstarter Team contact@netstarter.com
+ * @copyright Copyright © 2018 Netstarter Pty Ltd. (http://www.netstarter.com.au) All rights reserved.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceBlock name="content">
+        <block template="LearnKo_FirstKo::display.phtml" class="Magento\Framework\View\Element\Template" name="display"/>
+    </referenceBlock>
+</page>

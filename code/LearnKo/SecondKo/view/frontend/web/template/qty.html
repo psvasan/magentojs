@@ -1,0 +1,23 @@
+<div class="component-wrapper">
+    <div class="primary">
+        <button type="button" class="action action-login secondary" data-bind="click: decreaseQty">
+            <span data-bind="i18n: 'Decrease (-)'"></span>
+        </button>
+    </div>
+    <div class="field">
+        <label class="label" for="qty"><span data-bind="text: labelname, style: {color: color}"></span></label>
+        <div class="control">
+            <input name="qty"
+                   id="qty"
+                   type="text"
+                   class="input-text"
+                   data-bind="value: qtyVal">
+        </div>
+    </div>
+    <div class="primary">
+        <button type="button" class="action action-login secondary" data-bind="click: increaseQty">
+            <span data-bind="i18n: 'Increase (+)'"></span>
+        </button>
+    </div>
+
+</div>

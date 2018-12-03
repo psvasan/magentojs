@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Netstarter Pty Ltd.
+ *
+ * @category  RAG 
+ * @author    Netstarter Team contact@netstarter.com
+ * @copyright Copyright © 2018 Netstarter Pty Ltd. (http://www.netstarter.com.au) All rights reserved.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceBlock name="content">
+        <block template="LearnKo_ThirdKo::orderlist.phtml" class="Magento\Framework\View\Element\Template" name="books" cacheable="false" >
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="components" xsi:type="array">
+                        <item name="orderlist" xsi:type="array">
+                            <item name="component" xsi:type="string">LearnKo_ThirdKo/js/orderlist</item>
+                            <item name="config" xsi:type="array">
+                                <item name="template" xsi:type="string">LearnKo_ThirdKo/orderlist</item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </block>
+    </referenceBlock>
+</page>
